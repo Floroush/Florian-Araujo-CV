@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    color: #E6E2C3;
+    margin-top: 0px;
+}
+
+p {
+    color: #E6E2C3
+}
+
+.top-container {
+    background-color: #1C315E;
+    border: solid 10px;
+    color: #E6E2C3;
+    padding: 20px;
+}
+
+.middle-container {
+    background-color: #227C70;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container {
+    background-color: #88A47C;
+    height: 200px;
+    width: 200px;
+}
+
+.pro {
+    text-decoration: underline;
+}
