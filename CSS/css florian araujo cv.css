@@ -1,10 +1,12 @@
 body {
     margin: 0px;
+    text-align: center;
 }
 
 h1 {
     color: #E6E2C3;
-    margin-top: 0px;
+    margin: 0 auto 0 auto;
+    width: 10%;
 }
 
 p {
