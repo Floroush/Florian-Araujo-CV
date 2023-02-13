@@ -1,37 +1,81 @@
 body {
+    font-family: 'Montserrat', 'Merriweather', serif;
     margin: 0px;
     text-align: center;
 }
 
 h1 {
     color: #E6E2C3;
-    margin: 0 auto 0 auto;
-    width: 10%;
+    font-family: 'Sacramento', cursive;
+    margin-top: 0;
+
 }
 
-p {s
-    color: #E6E2C3
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #E6E2C3;
 }
 
 .top-container {
     background-color: #1C315E;
-    border: solid 10px;
     color: #E6E2C3;
-    padding: 20px;
+    padding-top: 100px;
+    position: relative;
 }
 
 .middle-container {
     background-color: #227C70;
-    height: 200px;
-    width: 200px;
+    padding: 50px 100px;
 }
 
 .bottom-container {
     background-color: #88A47C;
-    height: 200px;
-    width: 200px;
+    padding: 50px 100px;
 }
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 400px;
+}
+
+.japanese-h1 {
+    font-family: 'Zen Maru Gothic';
+    font-size: 70%;
+    position: relative;
+    left: 100px;
+}
+
+.japanese-h2 {
+    font-family: 'Zen Maru Gothic';
+}
+
+.japanese-p {
+    font-family: 'Zen Maru Gothic';
+    font-size: 90%;
+    position: relative;
+    left: 100px;
+}
+
+.mountain {}
 
 .pro {
     text-decoration: underline;
+}
+
+.profile-pic {
+    height: 200px;
 }
